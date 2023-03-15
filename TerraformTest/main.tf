@@ -13,7 +13,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "terraform-rg" {
-  name     = "Terraform-RG"-01
+  name     = "Terraform-RG-01"
   location = "east us"
   tags = {
     "Environment" = "Dev"
